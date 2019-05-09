@@ -27,7 +27,6 @@ class StreamEdit extends React.Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
-    console.log(state.streams)
     return {
         stream: state.streams[ownProps.match.params.id]
     }
